@@ -23,16 +23,14 @@ Output one number — the maximal number of dominoes, which can be placed.
 ````
 // Input
 2 4
-````
-````
+
 // Output
 4
 ````
 ````
 // Input
 3 3
-````
-````
+
 // Output
 4
 ````
