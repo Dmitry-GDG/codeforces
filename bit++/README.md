@@ -29,8 +29,7 @@ Print a single integer — the final value of x.
 // Input
 1
 ++X
-````
-````
+
 // Output
 1
 ````
@@ -39,8 +38,7 @@ Print a single integer — the final value of x.
 2
 X++
 --X
-````
-````
+
 // Output
 0
 ````
