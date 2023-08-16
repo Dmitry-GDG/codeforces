@@ -23,8 +23,7 @@ Print a single integer — the minimum number of moves needed to make the matrix
 0 0 0 0 0
 0 0 0 0 0
 0 0 0 0 0
-````
-````
+
 // Output
 3
 ````
@@ -35,8 +34,7 @@ Print a single integer — the minimum number of moves needed to make the matrix
 0 1 0 0 0
 0 0 0 0 0
 0 0 0 0 0
-````
-````
+
 // Output
 1
 ````
