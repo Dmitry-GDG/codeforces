@@ -7,10 +7,6 @@ import (
 	"sort"
 )
 
-type Pair struct {
-	a1, a2 int
-}
-
 func notInSlice(n int, ss []int) bool {
 	for _, s := range ss {
 		if n == s {
@@ -58,24 +54,12 @@ func main() {
 
 	fmt.Fscan(in, &n, &m)
 	friends := make([][]int, n, n) // срез друзей каждого пользователя (0-первый пользователь, 1-2й пользователь и тд)
-	// распарсим входные данные в срез
+	// распарсим входные данные в срез по каждому пользователю
 	// при этом исправим нумерацию, начнём её с 0
-	inputData := make([]Pair, m, m) // срез входных данных - пар друзей
 	for i := 0; i < m; i++ {
 		fmt.Fscan(in, &k1, &k2)
-		inputData[i] = Pair{k1 - 1, k2 - 1} // нумерация была с 1
-	}
-	// fmt.Println("-- входные данные --\n", inputData, "\n-------------")
-
-	// соберём срезы друзей по каждому пользователю
-	for i := 0; i < n; i++ {
-		for _, id := range inputData {
-			if id.a1 == i {
-				friends[i] = append(friends[i], id.a2)
-			} else if id.a2 == i {
-				friends[i] = append(friends[i], id.a1)
-			}
-		}
+		friends[k1 - 1] = append(friends[k1 - 1], k2 - 1) // нумерация во входных данных была с 1
+		friends[k2 - 1] = append(friends[k2 - 1], k1 - 1) // нумерация во входных данных была с 1
 	}
 	// fmt.Println("-- срезы друзей по каждому пользователю --\n",friends, "\n-------------")
 
