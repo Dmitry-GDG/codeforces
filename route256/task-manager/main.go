@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"bufio"
+	"fmt"
 	"os"
 	"sort"
 )
@@ -21,13 +21,13 @@ func main() {
 	// res - выходная сумма
 	var n, m int
 	var a, t, l, res uint64
-	
+
 	fmt.Fscan(in, &n, &m)
 
 	// срез всех процессоров
 	proc := make([][]uint64, n, n)
 
-	for i:= 0; i < n; i++ {
+	for i := 0; i < n; i++ {
 		fmt.Fscan(in, &a)
 		proc[i] = []uint64{0, a}
 	}
