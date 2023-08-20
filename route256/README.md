@@ -1,6 +1,12 @@
 # Route 256: Junior
 Песочница (Go)
 
+Проверка:
+````
+go fmt main.go
+go run main.go < tests/01
+````
+
 #### Оповещение
 
 Для решений на Go считывать данные рекомендуется, используя bufio.NewReader(os.Stdin). 
