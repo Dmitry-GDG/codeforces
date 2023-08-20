@@ -6,8 +6,11 @@
 go fmt main.go
 go run main.go < tests/01
 ````
+### Набранные баллы
 
-#### Оповещение
+<image src="./src/score.png" alt="Example">
+
+### Оповещение
 
 Для решений на Go считывать данные рекомендуется, используя bufio.NewReader(os.Stdin). 
 
