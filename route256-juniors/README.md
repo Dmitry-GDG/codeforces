@@ -1,4 +1,9 @@
 # Об отборочном контесте
+## Проверка:
+````
+go fmt main.go
+go run main.go < tests/01
+````
 ## Что такое отборочный контест?
 Контест — это онлайн соревнование, по результатам прохождения которого формируется рейтинг. По итогу лучшие участники будут зачислены на бесплатный курс.
 
@@ -15,7 +20,7 @@
 Направление QA (Go) Middle: Python, Java, Kotlin, JS, Go, PHP, C++, C, С#
 
 ## Где проходит контест?
-Контест для Junior — [Codeforces Route 256 Junior](https://routejunior.contest.codeforces.com/enter)
+Контест для Junior — [Codeforces Route 256 Junior](https://routejunior.contest.codeforces.com/enter) [or](https://routejunior.contest.codeforces.com/group/cTtlUdWs3D/contest/469696)
 
 Контест для Middle — [Codeforces Route 256 Middle](https://route256.contest.codeforces.com/enter)
 
