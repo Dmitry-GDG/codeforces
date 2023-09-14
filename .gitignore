@@ -1,4 +1,5 @@
 *.zip
 tests/
+*-orig*.*
 route256/task-manager/main-notdone.go
 route256/task-manager/main-1.go
